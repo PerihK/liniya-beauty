@@ -1,2 +1,15 @@
 .sites-runtime/
 *.tar.gz
+
+# Local credentials, dependencies and QA artifacts
+.env*
+.vercel/
+node_modules/
+.sites-checkout/
+qa/
+qa-astra/
+*.zip
+*.log
+*.pem
+tsconfig.tsbuildinfo
+.local-server*
